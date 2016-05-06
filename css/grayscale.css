@@ -28,12 +28,14 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 @media(min-width:768px) {
@@ -45,7 +47,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #99ccff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +56,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #99ccff;
 }
 
 .light {
@@ -153,6 +155,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .intro .intro-body {
@@ -188,10 +191,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #99ccff;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #99ccff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -201,8 +204,11 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
+    color: #000;
+    border:2px solid #99ccff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /* background: rgba(255,255,255,.1); */
+    background-color: #99ccff;
 }
 
 .btn-circle i.animated {
@@ -305,17 +311,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #99ccff;
+    color: #99ccff;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #99ccff;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #99ccff;
 }
 
 ul.banner-social-buttons {
